@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd src && node index.js",
+    "start:nodemon": "cd src && nodemon index.js",
+    "prepublish": "rm -R dist && mkdir -p dist && cp -R node_modules src && echo \"Build Succeed\""
+  },
+  "keywords": [],
+  "author": "Thanseer KA <thansee.thanseerka@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.8"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}

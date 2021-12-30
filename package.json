@@ -1,0 +1,24 @@
+{
+  "name": "angular-node",
+  "version": "1.0.0",
+  "description": "angular and node basic auth with jwt",
+  "main": "index.js",
+  "scripts": {
+    "server:install":"cd backend && npm install",
+    "client:install":"cd frontend && npm install",
+    "dev:client":"cd frontend && npm run start",
+    "dev:server":"cd backend && npm run start",
+    "dev:server1":"cd backend && npm run start:nodemon",
+    "server:dev:build":"cd backend && npm run prepublish",
+    "client:dev:build":"cd frontend && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "angular",
+    "node",
+    "jwt",
+    "auth"
+  ],
+  "author": "Thanseer KA <thansee.thanseerka@gmail.com>",
+  "license": "ISC"
+}

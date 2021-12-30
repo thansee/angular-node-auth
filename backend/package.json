@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "cd src && node index.js",
     "start:nodemon": "cd src && nodemon index.js",
-    "prepublish": "rm -R dist && mkdir -p dist && cp -R node_modules src && echo \"Build Succeed\""
+    "build": "mkdir -p dist && cp -R node_modules src && echo \"Build Succeed\""
   },
   "keywords": [],
   "author": "Thanseer KA <thansee.thanseerka@gmail.com>",

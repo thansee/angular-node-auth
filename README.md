@@ -14,8 +14,7 @@ The following instructions are for those who want to develop the project
 
 `npm run server:install`
 
-### 2. Install node project dependencies
-
+### 2. Install angular project dependencies
 
 `npm run client:install`
 
